@@ -1,0 +1,120 @@
+linear-g* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	/* background-color: orangered; */
+	font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+   
+}
+
+/* a{
+    text-decoration:none ;
+} */
+/* header {
+	 background-color: green;
+} 
+h1 {
+	background-color: pink;
+    color: red;
+    display:block;
+    padding: 20px;
+    height: 100px;
+    width: 200px;
+     
+}
+ul {
+	 background-color:brown ; 
+}
+li {
+	 background-attachment: lightgoldenrodyellow; 
+} */
+
+/***********************headers ****************/
+.header {
+	position: relative;
+	height: 100vh;
+    background-image : linear-gradient(rgba(3,4,7,0.48), rgba( 5, 10, 30,0.48)),
+    url('../images/pexels-pixabay-267684.jpg') ;
+	background-size: cover;
+    background-position: center;
+	
+}
+.header_brand{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+}
+.header_brand--span{
+    color: #20E700;
+}
+
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 7%;
+    background-color:#24232460;
+}
+
+
+.header nav ul li{
+   
+    display: inline-block;
+    margin: 10px 20px;
+    
+}
+.header nav ul li a{
+    color: white;
+    text-decoration:none;
+    font-size: 18px;
+}
+
+
+.header_heading {
+	position: absolute;
+	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.header_heading--h1{
+    font-size: 70px;
+    margin: 10px;
+}
+/*********************************about section****************/
+.about{
+    height: 80vh;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+.about_heading{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.about_heading--h2{
+    font-size: 60px;
+    padding-top: 6rem;
+}
+.about_heading--p{
+    text-align: center;
+}
+/*******************************portfolio section*******/
+.portfolio{
+    /* height: 180vh; 1024 x 728 */
+    height: 200vh;
+    padding: 50px;
+    text-align: center;
+    color: #362D2D;
+}
+/* CONTACT */
+
